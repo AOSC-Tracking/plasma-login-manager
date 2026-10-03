@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-login-manager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-06 02:46+0000\n"
+"POT-Creation-Date: 2026-10-02 00:45+0800\n"
 "PO-Revision-Date: 2026-04-26 20:55+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -49,16 +49,30 @@ msgid "Appearance"
 msgstr "모양"
 
 #: ui/Appearance.qml:35
-#, kde-format
-msgid "Clock"
-msgstr "시계"
+#, fuzzy, kde-format
+msgctxt "@title:group 'Show clock: Always/On login prompt/Never'"
+msgid "Show clock:"
+msgstr "시계 표시"
 
 #: ui/Appearance.qml:36
 #, kde-format
-msgid "Show clock"
-msgstr "시계 표시"
+msgctxt "@option:radio, 'Show clock: Always'"
+msgid "Always"
+msgstr ""
 
-#: ui/Appearance.qml:52
+#: ui/Appearance.qml:48
+#, kde-format
+msgctxt "@option:radio, 'Show clock: On login prompt'"
+msgid "On login prompt"
+msgstr ""
+
+#: ui/Appearance.qml:60
+#, kde-format
+msgctxt "@option:radio, 'Show clock: Never'"
+msgid "Never"
+msgstr ""
+
+#: ui/Appearance.qml:76
 #, kde-format
 msgid "Wallpaper type:"
 msgstr "배경 그림 종류:"
@@ -203,3 +217,7 @@ msgstr "기본 세션:"
 msgctxt "@option:radio"
 msgid "Last logged-in session"
 msgstr "마지막으로 로그인한 세션"
+
+#, kde-format
+#~ msgid "Clock"
+#~ msgstr "시계"

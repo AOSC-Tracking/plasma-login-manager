@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-login-manager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-06 02:46+0000\n"
+"POT-Creation-Date: 2026-10-02 00:45+0800\n"
 "PO-Revision-Date: 2026-04-01 04:11+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -53,16 +53,30 @@ msgid "Appearance"
 msgstr "გარეგნობა"
 
 #: ui/Appearance.qml:35
-#, kde-format
-msgid "Clock"
-msgstr "საათი"
+#, fuzzy, kde-format
+msgctxt "@title:group 'Show clock: Always/On login prompt/Never'"
+msgid "Show clock:"
+msgstr "საათის ჩვენება"
 
 #: ui/Appearance.qml:36
 #, kde-format
-msgid "Show clock"
-msgstr "საათის ჩვენება"
+msgctxt "@option:radio, 'Show clock: Always'"
+msgid "Always"
+msgstr ""
 
-#: ui/Appearance.qml:52
+#: ui/Appearance.qml:48
+#, kde-format
+msgctxt "@option:radio, 'Show clock: On login prompt'"
+msgid "On login prompt"
+msgstr ""
+
+#: ui/Appearance.qml:60
+#, kde-format
+msgctxt "@option:radio, 'Show clock: Never'"
+msgid "Never"
+msgstr ""
+
+#: ui/Appearance.qml:76
 #, kde-format
 msgid "Wallpaper type:"
 msgstr "ფონური სურათის ტიპი:"
@@ -211,3 +225,7 @@ msgstr "ნაგულისხმევი სესია:"
 msgctxt "@option:radio"
 msgid "Last logged-in session"
 msgstr "ბოლოს შესული სესია"
+
+#, kde-format
+#~ msgid "Clock"
+#~ msgstr "საათი"

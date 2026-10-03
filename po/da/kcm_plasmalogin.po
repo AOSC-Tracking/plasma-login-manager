@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-login-manager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-06 02:46+0000\n"
+"POT-Creation-Date: 2026-10-02 00:45+0800\n"
 "PO-Revision-Date: 2026-03-13 12:30+0100\n"
 "Last-Translator: Rasmus Rosendahl-Kaa <rasmus@rosendahl-kaa.name>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -50,16 +50,30 @@ msgid "Appearance"
 msgstr "Udseende"
 
 #: ui/Appearance.qml:35
-#, kde-format
-msgid "Clock"
-msgstr "Ur"
+#, fuzzy, kde-format
+msgctxt "@title:group 'Show clock: Always/On login prompt/Never'"
+msgid "Show clock:"
+msgstr "Vis ur"
 
 #: ui/Appearance.qml:36
 #, kde-format
-msgid "Show clock"
-msgstr "Vis ur"
+msgctxt "@option:radio, 'Show clock: Always'"
+msgid "Always"
+msgstr ""
 
-#: ui/Appearance.qml:52
+#: ui/Appearance.qml:48
+#, kde-format
+msgctxt "@option:radio, 'Show clock: On login prompt'"
+msgid "On login prompt"
+msgstr ""
+
+#: ui/Appearance.qml:60
+#, kde-format
+msgctxt "@option:radio, 'Show clock: Never'"
+msgid "Never"
+msgstr ""
+
+#: ui/Appearance.qml:76
 #, kde-format
 msgid "Wallpaper type:"
 msgstr "Baggrundsbilledetype:"
@@ -198,3 +212,7 @@ msgstr "Standardsession:"
 msgctxt "@option:radio"
 msgid "Last logged-in session"
 msgstr "Sidste session, der var logget ind"
+
+#, kde-format
+#~ msgid "Clock"
+#~ msgstr "Ur"

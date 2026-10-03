@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-login-manager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-06 02:46+0000\n"
+"POT-Creation-Date: 2026-10-02 00:45+0800\n"
 "PO-Revision-Date: 2026-01-18 17:29+0100\n"
 "Last-Translator: Martin Hansen <mh306602@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <l10n-no@nuug.no>\n"
@@ -53,16 +53,30 @@ msgid "Appearance"
 msgstr "Utseende"
 
 #: ui/Appearance.qml:35
-#, kde-format
-msgid "Clock"
-msgstr "Klokke"
+#, fuzzy, kde-format
+msgctxt "@title:group 'Show clock: Always/On login prompt/Never'"
+msgid "Show clock:"
+msgstr "Vis klokke"
 
 #: ui/Appearance.qml:36
 #, kde-format
-msgid "Show clock"
-msgstr "Vis klokke"
+msgctxt "@option:radio, 'Show clock: Always'"
+msgid "Always"
+msgstr ""
 
-#: ui/Appearance.qml:52
+#: ui/Appearance.qml:48
+#, kde-format
+msgctxt "@option:radio, 'Show clock: On login prompt'"
+msgid "On login prompt"
+msgstr ""
+
+#: ui/Appearance.qml:60
+#, kde-format
+msgctxt "@option:radio, 'Show clock: Never'"
+msgid "Never"
+msgstr ""
+
+#: ui/Appearance.qml:76
 #, kde-format
 msgid "Wallpaper type:"
 msgstr "Type bakgrunn:"
@@ -96,12 +110,6 @@ msgstr ""
 
 #: ui/main.qml:66
 #, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "<para><list><item>Color scheme</item><item>Cursor theme and size</"
-#| "item><item>Font and font rendering</item><item>NumLock preference</"
-#| "item><item>Plasma theme</item><item>Scaling DPI</item><item>Screen "
-#| "configuration</item></list></para>"
 msgctxt "@info"
 msgid ""
 "<para><list><item>Color scheme</item><item>Cursor theme and size</"
@@ -217,3 +225,7 @@ msgstr "Standardøkt:"
 msgctxt "@option:radio"
 msgid "Last logged-in session"
 msgstr "Sist innloggede økt"
+
+#, kde-format
+#~ msgid "Clock"
+#~ msgstr "Klokke"
