@@ -4,6 +4,10 @@ PartOf=graphical-session.target
 
 [Service]
 Environment="KWIN_USE_OVERLAYS=0"
+
+# LoongGPU device quirks.
+EnvironmentFile=-/etc/conf.d/kwin_wayland-loonggpu-quirks
+
 ExecStart=@CMAKE_INSTALL_FULL_BINDIR@/kwin_wayland --no-lockscreen --no-global-shortcuts --no-kactivities --inputmethod plasma-keyboard --locale1
 SuccessExitStatus=15
 BusName=org.kde.KWin
